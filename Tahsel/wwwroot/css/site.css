@@ -6,7 +6,9 @@
     --blue: #7db5cf;
     --shade-of-green: #d2f3f1a5;
 }
-
+main,footer {
+    background-color: var(--white)
+}
 
 .my-white {
     background-color: var(--white)
@@ -24,9 +26,7 @@ body {
     background-color: var(--white) !important;
 }
 
-footer {
-    margin-top: 5em;
-}
+
 
 nav li {
     margin-right: 0.8em;
