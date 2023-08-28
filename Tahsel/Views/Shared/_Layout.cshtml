@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="AR" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Tahsel.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
+                        aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a calss="navbar-brand" href="index.html"><img src="../Pictures/logo-nav/logo-navbar.PNG" alt="" width="65" height="65"></a>
+                <div class="collapse navbar-collapse" id="navbars">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-dark" asp-area="" asp-controller="Home" asp-action="Index">الصفحة الرئيسة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark" asp-area="" asp-controller="Thelibrary" asp-action="Index">المكتبة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark" asp-area="" asp-controller="VideoLesson" asp-action="Index">الدروس و الشروحات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark" asp-area="" asp-controller="College" asp-action="Index">الجامعات</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+     <main role="main">
+         @RenderBody()
+     </main>
+
+    <footer>
+        <div class="row container-fluid border-top text-center">
+            <div class="col-lg-4">
+                <br>
+                <a href="##" class="link-dark">تواصل معنا </a>
+                <br>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="link-dark">الرئيسـية</a>
+                <br>
+                <br>
+                <img src="~/Pictures/footer-img/facebook.svg" alt="not-found">
+                <img src="~/Pictures/footer-img/instagram.svg" alt="not-found">
+                <img src="~/Pictures/footer-img/twitter.svg" alt="not-found">
+            </div>
+            <div class="col-lg-4">
+                <br>
+                <h3>عن تحصيل </h3>
+                <p>
+                    منصة تعليمية تقدم مايحتاجه الطالب في مرحله ثالث الثانوي
+                    <h5>
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <br>
+                <img src="~/Pictures/logo-nav/logo-navbar.PNG" alt="not-found" width="20%">
+                <br>
+                <br>
+                <p>&copy; 2022 Devs. Team All rights reserved</p>
+                <br>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

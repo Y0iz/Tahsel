@@ -1,0 +1,226 @@
+/*colors*/
+:root {
+    --white: #e3e3e325;
+    --cyan: #98eae6;
+    --green: #d2f3f1;
+    --blue: #7db5cf;
+    --shade-of-green: #d2f3f1a5;
+}
+
+
+.my-white {
+    background-color: var(--white)
+}
+
+.background-Color-accordion {
+    background-color: var(--shade-of-green);
+}
+
+nav {
+    background-color: white !important;
+}
+
+body {
+    background-color: var(--white) !important;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+nav li {
+    margin-right: 0.8em;
+}
+
+/* main page*/
+#main-box {
+    background: linear-gradient(to right, #98eae6, #d2f3f1);
+    position: static !important;
+    padding: 3.5em;
+}
+
+#main-box-paragraph {
+    text-align: right;
+    margin-top: 4em;
+}
+
+    #main-box-paragraph p {
+        font-size: larger;
+        text-align: right;
+    }
+
+.space-between-items {
+    margin: 10em 0;
+}
+
+#college-ccontent {
+    margin-top: 0;
+}
+
+#cards-main {
+    margin-top: -50px;
+}
+
+#cards-main-row {
+    justify-content: center;
+}
+
+    #cards-main-row div {
+        margin: 0.5em 0.5em 0 0.5em !important;
+        padding: 0 0.5em !important;
+        align-items: center;
+        width: 250px;
+    }
+
+#main-content {
+    padding: 4em;
+}
+
+    #main-content h1 {
+        font-weight: bold;
+    }
+
+    #main-content p {
+        font-size: x-large;
+        text-align: right;
+        margin-top: 0.4em;
+    }
+
+    #main-content a {
+        margin-right: 2em;
+        margin-top: 0.4em;
+    }
+
+#main-paragrph p {
+    font-weight: 400;
+    font-size: x-large;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+#main-paragrph #hr-one {
+    border: var(--blue) 7px solid;
+    border-top: none;
+    margin-top: 150px;
+}
+
+#main-paragrph #hr-two {
+    border: var(--blue) 7px solid;
+    border-top: none;
+    margin-top: 1em;
+}
+
+
+
+
+
+/* the libray page*/
+.accordion-cards {
+    margin: 15px;
+    padding: 20px;
+    width: 243px !important;
+}
+
+    .accordion-cards ul {
+        list-style-type: none;
+    }
+
+        .accordion-cards ul a {
+            margin-top: 0.3em;
+            width: 150px;
+            background-color: #d2f3f1a5;
+        }
+
+    .accordion-cards h5 {
+        text-align: center !important;
+    }
+
+.main-container {
+    padding: 2em;
+}
+
+#accordion-01 {
+    margin: 40px 40px 0 40px;
+    padding-bottom: 40px;
+}
+
+#card-head-library {
+    background-color: #d2f3f1;
+    text-align: center !important;
+}
+
+    #card-head-library img {
+        width: 50%;
+    }
+
+#accordion-01 button {
+    background-color: #e8f0f237 !important;
+}
+
+
+/* college*/
+.card-college {
+    margin: 0.8em;
+    padding: 1.3em;
+    background-color: #e8f0f253 !important;
+    text-align: center;
+    max-width: 580px;
+}
+
+    .card-college img {
+        width: 100%;
+    }
+
+    .card-college p {
+        font-size: 15px;
+    }
+
+    .card-college h5 {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+#head-box-college {
+    background-color: #d2f3f1;
+    text-align: center;
+}
+
+    #head-box-college img {
+        width: 35%;
+        height: 130%;
+    }
+
+#main-content-college {
+    margin-top: 4em;
+}
+
+#card-of-shabwah-uni {
+    margin: 1.5em;
+    width: 40%;
+}
+
+/* video lesson page */
+#accordionExample {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+#main-content-vid-less button {
+    background-color: #e8f0f237;
+    font-size: large;
+}
+
+#head-box-vid-less {
+    background-color: #d2f3f1;
+    text-align: center;
+}
+
+    #head-box-vid-less img {
+        width: 30%;
+    }
+
+#main-content-vid-less a {
+    text-decoration: none;
+    background-color: #1D6192 !important;
+    color: white;
+}
